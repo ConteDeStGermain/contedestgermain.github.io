@@ -41,6 +41,8 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, data }) => {
         </button>
         <div className="p-6">
           <p>{`Nous vous attendrons dans notre boutique le ${formattedDate} à ${data.time} au 75 Laurier Ave E. Notre expert, ${data.expert.name}, sera là pour répondre à toutes vos questions. Le coût cette réparation sera de ${data.service.price}$. Vous recevrez un courriel de confirmation prochainement.`}</p>
+          <br />
+          <p>{`${data.expert.name} est un maître horloger de renommée internationale avec plus de 30 ans d'expérience dans le domaine de la réparation de montres de luxe. Après avoir travaillé pour des maisons horlogères prestigieuses comme Rolex, Patek Philippe, et Audemars Piguet, Jeoffrey est reconnu pour son habileté exceptionnelle à réparer et à restaurer des montres d'une complexité inégalée. Il aura le plaisir de prendre votre montre en charge!`}</p>
         </div>
       </div>
     </div>

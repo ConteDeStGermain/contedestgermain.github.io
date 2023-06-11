@@ -22,9 +22,9 @@ const expert = [
   { id: 0, name: 'Sélectionnez un expert' },
   { id: 1, name: 'Durward Reynolds' },
   { id: 2, name: 'Kenton Towne' },
-  { id: 3, name: 'Therese Wunsch' },
+  { id: 3, name: 'Edward Wunsch' },
   { id: 4, name: 'Benedict Kessler' },
-  { id: 5, name: 'Katelyn Rohan' },
+  { id: 5, name: 'Norton Rohan' },
 ]
 
 const service = [
