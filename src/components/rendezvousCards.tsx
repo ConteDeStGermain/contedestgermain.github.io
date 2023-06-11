@@ -105,8 +105,8 @@ export default function RendezvousCards() {
     <div>
       <Modal data={data} isOpen={isOpen} onClose={handleClose} />
       <div className="flex flex-row justify-center space-x-20 h-[60vh]">
-        <div className="w-[300px] h-[400px] bg-white shadow-xl p-6 rounded-[30px] flex flex-col justify-center items-center">
-          <p className="text-5xl font-bold">Tick</p>
+        <div className="w-[300px] h-[420px] bg-white shadow-xl p-6 rounded-[30px] flex flex-col justify-center items-center">
+          <p className="text-5xl mt-2 font-bold">Tick</p>
           <p className="text-xl p-2 font-medium">Choisissez une date</p>
           <DatePicker setDate={setDate} />
           <div className='flex flex-row items-center mt-3 mb-4'>
