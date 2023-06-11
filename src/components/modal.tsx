@@ -40,7 +40,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, data }) => {
           X
         </button>
         <div className="p-6">
-          <p>{`Nous vous attendrons dans notre boutique le ${formattedDate} à ${getRandomInt()}h00 au 75 Laurier Ave E. Notre expert, ${data.expert.name}, sera là pour répondre à toutes vos questions. Le coût cette réparation sera de ${data.service.price}$. Vous recevrez un courriel de confirmation prochainement.`}</p>
+          <p>{`Nous vous attendrons dans notre boutique le ${formattedDate} à ${data.time} au 75 Laurier Ave E. Notre expert, ${data.expert.name}, sera là pour répondre à toutes vos questions. Le coût cette réparation sera de ${data.service.price}$. Vous recevrez un courriel de confirmation prochainement.`}</p>
         </div>
       </div>
     </div>

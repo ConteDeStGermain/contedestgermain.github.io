@@ -33,7 +33,7 @@ export default function DescAndTable() {
           </tr>
           <tr>
             <td className="py-2 px-4 border-r ">Remplacement des aiguilles</td>
-            <td className="py-2 px-4 ">455$</td>
+            <td className="py-2 px-4 ">$455</td>
           </tr>
         </tbody>
       </table>
